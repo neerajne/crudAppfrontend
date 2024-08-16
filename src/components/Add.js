@@ -31,11 +31,7 @@ export const Add = () => {
           "Content-type": "application/json",
         },
       };
-      const response = await axios.post(
-        "http://localhost:8080/task/add",
-        updatedValues,
-        config
-      );
+      await axios.post("http://localhost:8080/task/add", updatedValues, config);
       // const result = response.data;
       setUpdatedValues({
         title: "",

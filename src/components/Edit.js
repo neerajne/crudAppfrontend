@@ -115,7 +115,7 @@ const styles = {
     margin: "0 auto",
     marginTop: "30px",
     padding: "20px",
-    backgroundColor: "#f8f9fa", // Light gray background
+    backgroundColor: "#f8f9fa", 
     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
     borderRadius: "8px",
   },
@@ -123,7 +123,7 @@ const styles = {
     fontSize: "24px",
     fontWeight: "bold",
     marginBottom: "20px",
-    color: "#343a40", // Dark gray color
+    color: "#343a40", 
     textAlign: "center",
   },
   formGroup: {
@@ -132,22 +132,22 @@ const styles = {
   label: {
     display: "block",
     marginBottom: "5px",
-    color: "#495057", // Muted gray for labels
+    color: "#495057", 
     fontSize: "14px",
     fontWeight: "bold",
   },
   input: {
     width: "100%",
     padding: "10px",
-    border: "1px solid #ced4da", // Border gray
+    border: "1px solid #ced4da",
     borderRadius: "5px",
     fontSize: "16px",
-    backgroundColor: "#fff", // White background for inputs
-    color: "#495057", // Text color
+    backgroundColor: "#fff", 
+    color: "#495057", 
   },
   button: {
     width: "100%",
-    backgroundColor: "#6c757d", // Muted gray for the button
+    backgroundColor: "#6c757d",
     color: "#fff",
     padding: "10px 0",
     border: "none",

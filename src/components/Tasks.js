@@ -116,18 +116,18 @@ export const Tasks = () => {
 
   useEffect(() => {
     getTasks();
-  }, [tasks]);
+  }, [getTasks]);
 
   const styles = {
     taskList: {
       display: "flex",
       flexDirection: "column",
-      gap: "20px", // Space between tasks
-      width: "640px", // Match the width of Header and Add components
-      margin: "0 auto", // Center horizontally
-      backgroundColor: "#f5f5f5", // Light gray background for the container
-      padding: "20px", // Add padding for spacing
-      borderRadius: "8px", // Rounded corners for the container
+      gap: "20px",
+      width: "640px", 
+      margin: "0 auto", 
+      backgroundColor: "#f5f5f5", 
+      padding: "20px", 
+      borderRadius: "8px", 
     },
     taskItem: {
       display: "flex",

@@ -30,13 +30,13 @@ const styles = {
     padding: "10px 20px",
     backgroundColor: "#1a202c",
     color: "#fff",
-    maxWidth: "600px", // Match the width of Tasks and Add components
-    margin: "0 auto", // Center horizontally
+    maxWidth: "600px", 
+    margin: "0 auto", 
   },
   title: {
     margin: 0,
     fontSize: "24px",
-    cursor: "pointer", // This line adds the cursor pointer effect
+    cursor: "pointer", 
   },
   button: {
     backgroundColor: "white",
