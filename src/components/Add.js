@@ -36,7 +36,7 @@ export const Add = () => {
         updatedValues,
         config
       );
-      const result = response.data;
+      // const result = response.data;
       setUpdatedValues({
         title: "",
         description: "",

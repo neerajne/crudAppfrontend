@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { toast, Zoom } from "react-toastify";
 import axios from "axios";
 import { useTask } from "../context/TaskContext";
 import { useNavigate } from "react-router-dom";
 export const Edit = () => {
   const navigate = useNavigate();
-  const { editTask, setEditTask, tasks, setTasks } = useTask();
+  const { editTask  } = useTask();
 
   const [edit, setEdit] = useState({
     title: editTask?.title || "",

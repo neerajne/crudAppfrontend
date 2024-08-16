@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import DeleteForeverOutlinedIcon from "@mui/icons-material/DeleteForeverOutlined";
 import EditIcon from "@mui/icons-material/Edit";
 import { useNavigate } from "react-router-dom";
@@ -9,7 +9,7 @@ import { useTask } from "../context/TaskContext";
 export const Tasks = () => {
   const navigate = useNavigate();
 
-  const { editTask, setEditTask, tasks, setTasks } = useTask();
+  const {  setEditTask, tasks, setTasks } = useTask();
 
   const handleDelete = async (_id) => {
     try {
@@ -116,7 +116,7 @@ export const Tasks = () => {
 
   useEffect(() => {
     getTasks();
-  }, []);
+  }, [tasks]);
 
   const styles = {
     taskList: {
